@@ -14,7 +14,6 @@ function loadVideo(src) {
     : "video/mp4";
 
   player.src({ src, type });
-  player.play();
   console.log(`Carregando vídeo: ${src} | type: ${type}`);
 }
 
