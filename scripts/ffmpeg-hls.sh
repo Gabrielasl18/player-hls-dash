@@ -2,9 +2,9 @@
 
 # Define as variáveis de entrada e saída fixas
 # Arquivo de vídeo de entrada fixo
-INPUT_FILE="../sea_clip.mp4" 
+INPUT_FILE="sea_clip.mp4" 
 # Diretório de saída fixo (um nível acima)
-OUTPUT_DIR="../hls" 
+OUTPUT_DIR="./hls" 
 # Nome da playlist principal fixo
 PLAYLIST_NAME="playlist.m3u8"
 
