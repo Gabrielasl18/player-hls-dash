@@ -1,6 +1,6 @@
 // URLs dos vídeos
-const hlsVideo = "./hls/sea_clip.m3u8";  // HLS
-const dashVideo = "./dash/sea_clip.mpd";  // DASH
+const hlsVideo = "./hls/playlist.m3u8";  // HLS
+const dashVideo = "./dash/playlist.mpd";  // DASH
 
 // Inicializa o player
 const player = videojs("my-video");
