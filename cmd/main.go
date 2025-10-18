@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// Serve todos os arquivos a partir da raiz do projeto
-	handler := http.FileServer(http.Dir("../"))
+	handler := http.FileServer(http.Dir("./"))
 
 	corsHandler := http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Access-Control-Allow-Origin", "*")
